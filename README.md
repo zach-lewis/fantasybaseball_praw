@@ -7,4 +7,4 @@ Program to analyze the top MLB players mentioned each day in r/fantasybaseball i
 
 - run_praw.bat: Batch file to run program daily when paired with a program such as Windows Task Scheduler
 
-- mentions_analysis.ipynb: Analysis of Top mentions to date, runs outside of main program schedule
+- mentions_analysis.ipynb: Analysis of top mentions to date and their correlation to fantasy points. Runs outside of main program schedule
