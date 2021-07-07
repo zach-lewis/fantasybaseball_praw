@@ -69,7 +69,7 @@ class GramDataProcessor():
         candidate_comments = comments[comments.length>1]['comment']
         self.cleaned_comments = candidate_comments
         
-    def most_common_grams(self, num_grams):
+    def most_common_grams(self, num_grams: int):
         if self.cleaned_comments.empty:
             print("Comments must be cleaned by using clean_comments() method first")
         else:
