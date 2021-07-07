@@ -54,7 +54,7 @@ class RedditScraper():
     
 class GramDataProcessor():
     
-    def __init__(self, data_input: object, comment_data: list, data_key: str):
+    def __init__(self, data_input: pd.DataFrame(), comment_data: list, data_key: str):
         self.data_input = data_input.apply(lambda x: x.str.lower())
         self.data_key = data_key
         self.comment_data = comment_data
