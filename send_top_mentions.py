@@ -15,9 +15,9 @@ from datetime import datetime
 
 today = datetime.today().strftime("%m-%d-%Y")
 
-email_sender = 'fbaseballpraw@gmail.com'
-email_password = 'vdksxyquerhzflvd'
-email_recipient = 'zach.lewis7@gmail.com'
+email_sender = 'YOUR_EMAIL'
+email_password = 'YOUR_PASSWORD'
+email_recipient = 'RECEIPIENT_EMAIL'
 
 email_subject = f'Fantasy Baseball Top Mentions {today}'
 
