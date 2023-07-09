@@ -105,9 +105,9 @@ class MlbDataProcessor():
 if __name__ == '__main__':
     
     """Scrape comment data and format for plotting"""
-    fb_test = RedditScraper(client_id = 'pJsuStRkUNbm6A', 
-                            client_secret = 'mw69VcOeNCtTbQikt1sOwJRo8rUvcA',
-                            user_agent = 'fb_api', 
+    fb_test = RedditScraper(client_id = 'YOUR_ID', 
+                            client_secret = 'YOUR_SECRET',
+                            user_agent = 'YOUR_AGENT', 
                             subreddit = 'fantasybaseball')
     
     all_comments = fb_test.hot_comments()    
